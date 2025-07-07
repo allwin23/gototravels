@@ -1,0 +1,274 @@
+/* === Reset and Body === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('ChatGPT\ Image\ Jul\ 7\,\ 2025\,\ 12_31_24\ PM.png'); /* Replace with actual image */
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+/* === Navbar === */
+nav {
+  background-color: #1f1f1f;
+  padding: 15px 30px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: #333;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+/* === Search Bar === */
+.search-bar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.search-bar input[type="text"] {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+  width: 180px;
+}
+
+.search-bar button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #00b894;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #019875;
+}
+
+/* === Homepage Section === */
+.homepage-content {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  min-height: 100vh;
+}
+
+.homepage-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.homepage-content p {
+  font-size: 1.3rem;
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  line-height: 1.6;
+}
+
+/* === Social Media Icons === */
+.social-icons {
+  margin-top: 30px;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.8rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #00b894;
+}
+.about-container, .team-container {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+  }
+  
+  .about-container h1, .team-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .about-container p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+  }
+  
+  .member {
+    background-color: #2b2b2b;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+  }
+  
+  .member h3 {
+    color: #00b894;
+    margin-bottom: 10px;
+  }
+  
+  .member p {
+    color: #ccc;
+  }
+  .contact-container {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+  }
+  
+  .contact-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-container p {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #ccc;
+  }
+  
+  .contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    background-color: #333;
+    color: white;
+  }
+  
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    color: #aaa;
+  }
+  
+  .contact-form button {
+    background-color: #00b894;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .contact-form button:hover {
+    background-color: #019875;
+  }
+  
+
+/* === Responsive for Mobile === */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .search-bar {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .search-bar input {
+    width: 100%;
+  }
+  .about-container, .team-container {
+  padding: 80px 20px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.about-container h1, .team-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about-container p {
+  font-size: 1.2rem;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.member {
+  background-color: #2b2b2b;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.member h3 {
+  color: #00b894;
+  margin-bottom: 10px;
+}
+
+.member p {
+  color: #ccc;
+}
+
+}

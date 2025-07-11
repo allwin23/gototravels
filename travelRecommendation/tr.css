@@ -189,4 +189,104 @@ nav {
       width: 100%;
     }
   }
+  /* About Us Section */
+.about-us-container {
+    max-width: 900px;
+    margin: 80px auto 40px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    color: #222;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  
+  .about-us-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #222;
+  }
+  
+  .about-us-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  /* Team Section */
+  .team-section {
+    margin-top: 40px;
+  }
+  
+  .team-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .team-members {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .member-card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    width: 200px;
+    border-radius: 8px;
+    color: #000;
+    box-shadow: 0 0 8px rgba(0,0,0,0.15);
+  }
+  
+  .member-card h4 {
+    margin-bottom: 5px;
+  }
+  
+  .member-card p {
+    font-size: 0.95rem;
+    color: #555;
+  }
+  /* Contact Us Form */
+.contact-form-container {
+    max-width: 700px;
+    margin: 80px auto;
+    padding: 40px;
+    background-color: rgba(255,255,255,0.9);
+    border-radius: 10px;
+    color: #222;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  }
+  
+  .contact-form-container h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contact-form-container input,
+  .contact-form-container textarea {
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-form-container button {
+    padding: 12px;
+    background-color: #f9ca24;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .contact-form-container button:hover {
+    background-color: #f6b93b;
+  }
   

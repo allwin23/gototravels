@@ -208,7 +208,30 @@ nav ul li a:hover {
   .contact-form button:hover {
     background-color: #019875;
   }
-  
+  .results-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px;
+}
+
+.city-card {
+  width: 250px;
+  background-color: #1f1f1f;
+  padding: 15px;
+  border-radius: 8px;
+  color: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  text-align: center;
+}
+
+.city-card img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
 
 /* === Responsive for Mobile === */
 @media (max-width: 600px) {

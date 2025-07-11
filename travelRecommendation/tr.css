@@ -289,4 +289,129 @@ nav {
   .contact-form-container button:hover {
     background-color: #f6b93b;
   }
+  /* 🌅 About Section with warm tones */
+.about-container {
+    max-width: 900px;
+    margin: 80px auto 40px;
+    padding: 40px;
+    background-color: #fff4e6; /* warm cream */
+    border-radius: 10px;
+    color: #5a3e36; /* soft brown */
+    box-shadow: 0 0 15px rgba(173, 94, 38, 0.2);
+    text-align: center;
+  }
+  
+  .about-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #c85a34; /* terracotta */
+  }
+  
+  .about-container p {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #7a4e36;
+  }
+  
+  /* 🧡 Team Section Warm Vibes */
+  .team-container {
+    max-width: 1000px;
+    margin: 40px auto 80px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .team-container h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #b85042;
+  }
+  
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+  }
+  
+  .member {
+    background-color: #ffe6cc; /* light peach */
+    padding: 20px;
+    width: 220px;
+    border-radius: 10px;
+    color: #4b2e2e;
+    box-shadow: 0 4px 12px rgba(139, 69, 19, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .member:hover {
+    transform: scale(1.05);
+    background-color: #ffdab3; /* peach on hover */
+  }
+  
+  .member h3 {
+    margin-bottom: 8px;
+    color: #b85042;
+  }
+  
+  .member p {
+    font-size: 0.95rem;
+    color: #6b4e40;
+  }
+  .contact-container {
+    max-width: 800px;
+    margin: 80px auto;
+    padding: 40px;
+    background-color: #fff4e6;
+    border-radius: 10px;
+    color: #5a3e36;
+    box-shadow: 0 0 10px rgba(173, 94, 38, 0.2);
+    text-align: center;
+  }
+  
+  .contact-container h1 {
+    color: #c85a34;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .contact-container p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    color: #7a4e36;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 12px;
+    border: 1px solid #e1b07e;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #fffefc;
+    color: #5a3e36;
+  }
+  
+  .contact-form button {
+    padding: 12px 24px;
+    background-color: #c85a34;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-form button:hover {
+    background-color: #a84427;
+  }
   

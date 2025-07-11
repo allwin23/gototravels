@@ -1,25 +1,27 @@
 <html>
 <head>
   <title>gototravels</title>
-  <link rel="stylesheet" href="./tr.css">
+  <!-- Correct CSS Path -->
+  <link rel="stylesheet" href="./travel_recommendation/tr.css">
+  
+  <!-- Correct External Font Awesome Link -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
 
   <nav class="navbar">
-  <div class="nav-left">
-    <a href="index.html">Home</a>
-    <a href="aboutus.html">About Us</a>
-    <a href="contact.html">Contact Us</a>
-  </div>
+    <div class="nav-left">
+      <a href="index.html">Home</a>
+      <a href="aboutus.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
 
-  <div class="nav-right">
-    <input type="text" placeholder="Search..." id="searchInput">
-    <button onclick="search()">Search</button>
-    <button onclick="reset()">Reset</button>
-  </div>
-</nav>
-
+    <div class="nav-right">
+      <input type="text" placeholder="Search..." id="searchInput">
+      <button onclick="search()">Search</button>
+      <button onclick="reset()">Reset</button>
+    </div>
+  </nav>
 
   <div class="homepage-content">
     <h1>Welcome to Travel Explorer 🌍</h1>
@@ -38,6 +40,7 @@
   <!-- ✅ This is where cards will be injected -->
   <div id="results" class="results-container"></div>
 
-  <script src="travel_recommendation.js"></script>
+  <!-- Correct JS Path -->
+  <script src="./travel_recommendation/travel_recommendation.js"></script>
 </body>
 </html>
